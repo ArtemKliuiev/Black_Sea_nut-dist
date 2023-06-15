@@ -10,28 +10,28 @@ const swiper = new Swiper('.swiper', {
   
     // Navigation arrows
     navigation: {
-      nextEl: '.slider-arrow__button-right--one',
-      prevEl: '.slider-arrow__button-left--one',
+      nextEl: '.slider-arrow__button-right',
+      prevEl: '.slider-arrow__button-left',
     },
   
 
   });
 
-  const swiperTwo = new Swiper('.swiper-two', {
-    // Optional parameters
-    direction:  'horizontal',
-    // loop: true,
-    slidesPerView: 3,
-    spaceBetween: 32,
+  // const swiperTwo = new Swiper('.swiper-two', {
+  //   // Optional parameters
+  //   direction:  'horizontal',
+  //   // loop: true,
+  //   slidesPerView: 3,
+  //   spaceBetween: 32,
   
-    // Navigation arrows
-    navigation: {
-      nextEl: '.slider-arrow__button-right--two',
-      prevEl: '.slider-arrow__button-left--two',
-    },
+  //   // Navigation arrows
+  //   navigation: {
+  //     nextEl: '.slider-arrow__button-right--two',
+  //     prevEl: '.slider-arrow__button-left--two',
+  //   },
   
 
-  });
+  // });
 
   
   const yTube = document.querySelector("#movie_player > div.ytp-chrome-bottom");
